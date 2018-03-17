@@ -1,0 +1,68 @@
+SDK_ROOT = ./sdk_export
+SDK_EXPORT = $(SDK_ROOT)/sdk
+SDK_DEMO = $(SDK_ROOT)/demo
+SDK_SCRIPTS = $(SDK_EXPORT)/assets/libsdk
+
+MY_TIME=$(shell date "+%Y%m%d%H%M")
+
+build = \
+	mkdir -p $(SDK_SCRIPTS)/ ;\
+	find $(SDK_SCRIPTS)/$(1) -name "*.lua" -exec ../rcssdk/luac32 -o {}.o {} \; \
+	&& find $(SDK_SCRIPTS)/$(1) -name "*.lua" -exec rm -rf {} \; \
+	&& find $(SDK_SCRIPTS)/$(1) -name "*.lua.o" -exec sh -c "echo {} | sed 's/lua.o/o/g' | xargs mv {} " \; \
+	&& ls $(SDK_SCRIPTS)/$(1)/*test.o | xargs rm -f ;\
+
+updatefile:
+	rm -rf $(SDK_SCRIPTS)
+	mkdir -p $(SDK_SCRIPTS)
+	cp -r ../rcssdk/scripts/* $(SDK_SCRIPTS)
+	../rcssdk/build-tools/modifyversion.sh $(SDK_SCRIPTS)
+
+sdk:
+	$(call build,sdk)
+	$(call build,libs)
+	$(call build,mqtt)
+
+sdk_dist: updatefile sdk
+	rm -rf $(SDK_SCRIPTS)/tests
+	echo ok
+
+clean:
+	rm -rf $(SDK_ROOT)
+	rm -f android-release*.tar.gz
+
+usdk: clean sdk_dist
+	mkdir -p $(SDK_ROOT)
+	mkdir -p $(SDK_EXPORT)
+	mkdir -p $(SDK_DEMO)
+	mkdir -p $(SDK_ROOT)/doc
+	mkdir -p $(SDK_EXPORT)/libs
+	mkdir -p $(SDK_EXPORT)/jniLibs
+	cd $(SDK_SCRIPTS) && cd .. && zip -r libsdk.zip libsdk
+	rm -rf $(SDK_SCRIPTS)
+
+	buck build UWS:src
+	rm -rf ./buck-out/bin/UWS/tmp
+	mkdir ./buck-out/bin/UWS/tmp
+	cp -r ./buck-out/bin/UWS/lib__aidls__classes/* ./buck-out/bin/UWS/tmp
+	cp -r ./buck-out/bin/UWS/lib__src__classes/* ./buck-out/bin/UWS/tmp
+	jar -cvf ./$(SDK_EXPORT)/libs/UWS.jar -C buck-out/bin/UWS/tmp .
+	rm -rf ./buck-out/bin/UWS/tmp
+	jar -cvf ./$(SDK_EXPORT)/libs/Usdk.jar -C  buck-out/bin/Usdk/lib__usdk__classes .
+	jar -cvf ./$(SDK_EXPORT)/libs/UCommon.jar -C  buck-out/bin/UCommon/lib__src__classes .
+	cp ./libs/gson*.jar ./libs/zip4j*.jar ./$(SDK_EXPORT)/libs
+	cp -r ./Usdk/src/main/jniLibs/* ./$(SDK_EXPORT)/jniLibs
+	# demo
+	cp -r gradle $(SDK_DEMO)/
+	cp -r build.gradle $(SDK_DEMO)/
+	cp -r  uwsdemo $(SDK_DEMO)/
+	mv $(SDK_DEMO)/uwsdemo/build_export.gradle $(SDK_DEMO)/uwsdemo/build.gradle 
+	rm -rf $(SDK_DEMO)/uwsdemo/src/main/assets
+	rm -rf $(SDK_DEMO)/uwsdemo/build
+	echo "include ':uwsdemo'" > $(SDK_DEMO)/settings.gradle
+	cp readme.txt $(SDK_ROOT)/
+	# javdoc
+	-javadoc -d $(SDK_ROOT)/doc -sourcepath uws/src/main/java:ucommon/src/main/java:usdk/src/main/java -subpackages com -charset utf-8  -encoding utf-8
+	tar cfz android-release-$(MY_TIME).tar.gz $(SDK_ROOT)
+
+.PHONY: sdk sdk_dist clean usdk

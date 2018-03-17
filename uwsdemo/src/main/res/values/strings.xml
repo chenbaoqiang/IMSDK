@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<resources>
+  <string name='app_name'>Uws Demo</string>
+
+
+  <!--多人音视频-->
+  <string name="me">我</string>
+  <string name="state_on_hold">暂停</string>
+  <string name="state_on_held">被暂停</string>
+  <string name="state_hung_up">挂断</string>
+  <string name="state_connecting">连接中</string>
+  <string name="state_unreachable">无法接通</string>
+  <string name="state_ringing">呼叫中</string>
+  <string name="state_busy">正在忙</string>
+  <string name="state_rejected">拒接</string>
+  <string name="state_error">错误</string>
+  <string name="state_timeout">超时</string>
+  <string name="state_calling">正在通话</string>
+  <string name="state_invite_audio">音频来电</string>
+  <string name="state_invite_video">视频来电</string>
+  <string name="state_invite_multi_audio">多人通话</string>
+  <string name="state_end">通话结束</string>
+  <string name="state_unknown">未知</string>
+
+  <string name="member_state_pending">邀请中</string>
+  <string name="member_state_connected">已连接</string>
+  <string name="member_state_alerting">呼叫中</string>
+  <string name="member_state_unknown">未知状态</string>
+
+  <string name="toast_unreachable">%s 暂时无法接通</string>
+  <string name="toast_busy">%s 正在通话中</string>
+  <string name="toast_depart">%s 离开了会话</string>
+  <string name="unknown_contact">陌生人</string>
+
+  <string name="network_state_normal">网络信号良好</string>
+  <string name="switch_to_video">视频</string>
+  <string name="switch_to_audio">音频</string>
+  <string name="switch_to_system_call">普通电话</string>
+  <string name="turn_on_camera">摄像头</string>
+  <string name="add_contact">加人</string>
+  <string name="turn_on_mute">静音</string>
+  <string name="turn_on_speaker">免提</string>
+  <string name="reject_call">拒接</string>
+  <string name="answer_call">接听</string>
+  <string name="answer_call_by_audio">语音接听</string>
+
+  <string name="multi_audio_call">多人音频通话</string>
+  <string name="audio_call">音频通话</string>
+  <string name="multi_video_call">多人视频通话</string>
+  <string name="video_call">视频通话</string>
+
+    <string name="audio_mode_speaker" msgid="27649582100085266">"扬声器"</string>
+    <string name="audio_mode_earpiece" msgid="4156527186373869107">"手机听筒"</string>
+    <string name="audio_mode_wired_headset" msgid="1465350758489175975">"有线耳机"</string>
+    <string name="audio_mode_bluetooth" msgid="3047641300848211128">"蓝牙"</string>
+
+    <string name="notification_missedCallTitle" msgid="7554385905572364535">"未接电话"</string>
+    <string name="notification_action_end_call" msgid="6069460915123531620">"挂断"</string>
+    <string name="wait_prompt_str" msgid="7601815427707856238">"发送以下音频？\n"</string>
+    <string name="pause_prompt_yes" msgid="3564467212025151797">"是"</string>
+    <string name="pause_prompt_no" msgid="6686238803236884877">"否"</string>
+</resources>

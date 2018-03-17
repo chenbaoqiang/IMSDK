@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.interrcs.sdk.uwsdemo" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="21" />
+
+    <!-- 网络 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <!-- 唤醒 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 磁盘 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.MOUNT_MOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- 开机 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+     
+    <!-- 获取IMEI -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- 音视频 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SHUTDOWN" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.PERFORM_CDMA_PROVISIONING" />
+    <uses-permission android:name="android.permission.USE_SIP" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.UPDATE_LOCK" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="com.android.smspush.WAPPUSH_MANAGER_BIND" />
+    <uses-permission android:name="android.permission.MANAGE_USERS" />
+    <uses-permission android:name="android.permission.UPDATE_APP_OPS_STATS" />
+    <uses-permission android:name="android.permission.CONNECTIVITY_INTERNAL" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="com.interrcs.uwsdemo.MyApp"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:label="UWSDemo"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar" >
+        <activity android:name="com.interrcs.uwsdemo.activity.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.interrcs.uwsdemo.activity.ProvisionActivity" />
+        <activity android:name="com.interrcs.uwsdemo.activity.BuddyEventActivity" />
+        <activity android:name="com.interrcs.uwsdemo.activity.BuddyActivity" />
+        <activity android:name="com.interrcs.uwsdemo.activity.DeviceActivity" />
+        <activity android:name="com.interrcs.uwsdemo.activity.UserActivity" />
+        <activity android:name="com.interrcs.uwsdemo.activity.MessageActivity" />
+        <activity android:name="com.interrcs.uwsdemo.activity.SettingActivity" />
+        <activity android:name="com.interrcs.uwsdemo.activity.FetchFileActivity" />
+        <activity android:name="com.interrcs.uwsdemo.activity.GroupEventActivity" />
+        <activity android:name="com.interrcs.uwsdemo.activity.GroupActivity" />
+        <activity android:name="com.interrcs.uwsdemo.activity.GroupMemberActivity" />
+
+        <!--
+            SDK工作的Service，运行在单独的进程，进程优先级在perceptible，优先级较高，占用很少系统内存，
+            被系统回收的概率极低，相当于一个挂机进程，保证IM消息的畅通。
+        -->
+        <service
+            android:name="com.feinno.sdk.dapi.RCSWorkingService"
+            android:exported="false"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.feinno.uws.Action.RCSWorkingService" />
+            </intent-filter>
+        </service>
+
+        <!-- 为提升RCSWorkingService进程优先级的辅助Service -->
+        <service
+            android:name="com.feinno.sdk.dapi.RemoveNotificationService"
+            android:exported="false" />
+
+        <!-- 处理应用核心业务逻辑的后台服务。 -->
+        <service
+            android:name="com.interrcs.uwsdemo.UWSReceiverService"
+            android:exported="false" />
+
+        <!-- 音视频服务 -->
+        <service
+            android:name="com.interrcs.mcall.service.RcsPhoneService$PhoneDaemonService"
+            android:exported="false" />
+
+        <receiver android:name="com.feinno.uws.BootBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 监听网络变化， 必须和 RcsWorkingService 在同一个进程之中 -->
+        <receiver
+            android:name="com.feinno.sdk.dapi.RCSWorkingService$NetworkReceiver"
+            android:process=":remote" >
+
+            <!-- 保证和 RcsWorkingService 同一个进程 -->
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.feinno.sdk.dapi.RCSWorkingServiceBootReceiver"
+            android:exported="false"
+            android:process=":remote" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.interrcs.sdk.broadcast.BOOT_RCSWORKINGSERVICE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 接收来自SDK的广播，并分配给UWSReceiverService处理 -->
+        <receiver android:name="com.interrcs.uwsdemo.UWSReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.ACTION_SERVICE_STATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.ACTION_SDK_STATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.ACTION_USER_STATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.ACTION_CONNECTION_STATE" />
+            </intent-filter>
+
+            <!-- 短验 -->
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.getsmscode_result" />
+            </intent-filter>
+            <!-- 开通 -->
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.provision_result" />
+            </intent-filter>
+            <!-- 登录 -->
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.login_result" />
+            </intent-filter>
+            <!-- 消息 -->
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.message_text_session" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.message_file_session" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.message_file_progress_session" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.message_report_session" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.message_fetch_result" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.message_send_result" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.message_custom_session" />
+            </intent-filter>
+
+            <!-- 能力 -->
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.caps" />
+            </intent-filter>
+            <!-- 好友 -->
+            <intent-filter>
+                <action android:name="com.feinno.sdk.v3.yourapp.broadcast.buddy_event_session" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.feinno.sdk.v3.yourapp.broadcast.buddy_list_session" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.feinno.sdk.v3.yourapp.broadcast.buddy_result" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.feinno.sdk.v3.yourapp.broadcast.userinfo_result" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.feinno.sdk.v3.yourapp.broadcast.userprofile_result" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.feinno.sdk.v3.yourapp.broadcast.userportrait_result" />
+            </intent-filter>
+            <!-- 群组 -->
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.group_list_session" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.group_event_session" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.group_notify_session" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.group_info_session" />
+            </intent-filter>
+            <!-- 音视频 -->
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.av_session" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.av_result" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.endpointlist_result" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.interrcs.sdk.yourapp.broadcast.endpoint_result" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.feinno.sdk.yourapp.broadcast.endpointchanged_session" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.feinno.sdk.yourapp.broadcast.logout_session" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.feinno.sdk.yourapp.broadcast.message_batch_session" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.feinno.sdk.v3.yourapp.broadcast.login_state" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 存储好友通知事件的ContentProvider，如：好友添加、删除、修改等 -->
+        <provider
+            android:name="com.interrcs.uwsdemo.data.BuddyEvtContentProvider"
+            android:authorities="com.interrcs.demo.buddy_evt.provider"
+            android:exported="true" />
+
+        <!-- 存储好友 -->
+        <provider
+            android:name="com.interrcs.uwsdemo.data.BuddyContentProvider"
+            android:authorities="com.interrcs.demo.buddy.provider"
+            android:exported="true" />
+
+        <!-- 存储消息 -->
+        <provider
+            android:name="com.interrcs.uwsdemo.data.MessageContentProvider"
+            android:authorities="com.interrcs.demo.message.provider"
+            android:exported="true" />
+
+        <!-- 群组通知 -->
+        <provider
+            android:name="com.interrcs.uwsdemo.data.GroupEvtContentProvider"
+            android:authorities="com.interrcs.demo.group_evt.provider"
+            android:exported="true" />
+
+        <!-- 群 -->
+        <provider
+            android:name="com.interrcs.uwsdemo.data.GroupContentProvider"
+            android:authorities="com.interrcs.demo.group.provider"
+            android:exported="true" />
+
+        <!-- 群成员 -->
+        <provider
+            android:name="com.interrcs.uwsdemo.data.GroupMemberContentProvider"
+            android:authorities="com.interrcs.demo.group_member.provider"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/btn_adddevice" android:text="添加IOT:aabbccdd设备"
+            />
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/btn_removedevice" android:text="删除IOT:aabbccdd设备"
+    />
+
+    <Button
+        android:text="获取设备列表"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_devicelist" />
+
+    <Button
+        android:text="获取设备状态"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_devicestatus" />
+
+    <Button
+        android:text="发消息"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_sendmsg" />
+
+    <ListView
+            android:id="@android:id/list"
+            android:choiceMode="multipleChoice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

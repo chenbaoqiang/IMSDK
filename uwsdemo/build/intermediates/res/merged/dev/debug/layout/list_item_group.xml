@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_info" android:text="刷新群信息"/>
+
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tv_group_id"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tv_group_name"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tv_group_nickname"/>
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_message" android:text="群消息"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_group_member" android:text="群成员列表"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_change_name" android:text="修改群名称"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_change_nickname" android:text="修改群中的昵称"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_invite" android:text="邀请人加入群"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_quit" android:text="退群"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_delete" android:text="删除群"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+include ':rcsdemo'
+include ':rcssdk'
+include ':uwsdemo'
+include ':uws'
+include ':usdk'
+include ':ucommon'

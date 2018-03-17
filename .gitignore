@@ -1,0 +1,14 @@
+*.iml
+.gradle
+/local.properties
+/gradle.properties
+.idea
+.DS_Store
+/build
+/gen
+/captures
+libRcsSdk.so
+sdk_export
+buck-out
+.buckd
+*.tar.gz

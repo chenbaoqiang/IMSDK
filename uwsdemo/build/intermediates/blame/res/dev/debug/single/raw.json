@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/raw/ringback.ogg",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/raw/ringback.ogg"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/raw/ringback_video.ogg",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/raw/ringback_video.ogg"
+    }
+]

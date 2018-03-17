@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/btn_add" android:text="添加+8615901435217为好友"
+            />
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/btn_getpre" android:text="获取在线状态8615901435217"
+    />
+
+    <Button
+        android:text="获取黑名单列表"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_blacklist" />
+
+    <ListView
+            android:id="@android:id/list"
+            android:choiceMode="multipleChoice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

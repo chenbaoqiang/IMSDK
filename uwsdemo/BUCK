@@ -1,0 +1,114 @@
+android_resource(
+    name = 'res',
+    res = 'src/main/res',
+    package = 'com.interrcs.uwsdemo',
+     assets = 'src/main/assets',
+    deps = [ ],
+)
+
+android_build_config(
+    name = 'build-config',
+    package = 'com.interrcs.uwsdemo',
+)
+
+APP_CLASS_SOURCE = 'src/main/java/com/feinno/rongtalk/AppShell.java'
+
+android_library(
+    name = 'src',
+    srcs =  glob(['src/main/**/*.java'], excludes = [APP_CLASS_SOURCE]),
+    deps = [
+        ':res',
+        '//libs:uws-jars',
+        '//ucommon:src',
+        '//usdk:usdk',
+        '//uws:src',
+    ],
+    visibility = ['PUBLIC'],
+)
+
+keystore(
+    name = 'debug_keystore',
+    store = 'debug.keystore',
+    properties = 'debug.keystore.properties',
+)
+
+
+android_manifest(
+    name = 'manifest',
+    skeleton = 'src/main/AndroidManifest.xml',
+)
+
+android_binary(
+    name = 'app',
+    manifest = ':manifest',
+    keystore = ':debug_keystore',
+    package_type = 'debug',
+
+  deps = [
+      ':res',
+      ':src',
+  ],
+    #use_split_dex = True,
+    primary_dex_patterns = [
+        '^com/interrcs/uwsdemo',
+        '^com/feinno/ngcc',
+        '^com/feinno/sdk',
+        '^com/feinno/uws',
+        '^com/feinno/phone',
+        '^com/feinno/ucommon',
+        '^com/feinno/rcs/emojishop/manager',
+        '^com/android/mms/',
+        '^com/android/mms/transaction',
+        '^android/support/multidex',
+        '^android/support/v4/content/FileProvider',
+        '^com/urcs/ucp/',
+        '^de/greenrobot/',
+        '^com/chinamobile/icloud/im/sync/provider/',
+        '^org/acra/',
+        '^com/nostra13/universalimageloader/cache/memory/',
+        "^com/nostra13/universalimageloader/core/",
+        '^com/android/mms/data/',
+        '^com/feinno/rongtalk/BuildConfig^',
+        '^com/facebook/buck/android/support/exopackage/',
+        '^com/google/gson',
+    ],
+    linear_alloc_hard_limit = 20*1024*1024,
+
+
+)
+
+android_binary(
+    name = 'release',
+    manifest = ':manifest',
+    keystore = '//keystores:release',
+    package_type = 'release',
+    deps = [
+        ':res',
+        ':src',
+    ],
+)
+
+android_binary(
+    name = 'dev',
+    manifest = ':manifest',
+    keystore = ':debug_keystore',
+    use_split_dex = True,
+    exopackage_modes = ['secondary_dex'],
+    primary_dex_patterns = [
+        'com/feinno/rongtalk/AppShell^',
+        '^com/feinno/rongtalk/BuildConfig^',
+        '^com/facebook/buck/android/support/exopackage/',
+    ],
+
+  linear_alloc_hard_limit = 20*1024*1024,
+
+  deps = [
+      ':res',
+      ':src',
+  ],
+)
+
+project_config(
+    src_target = ':app',
+    src_roots = ['src/main/java', 'src/main/aidl'],
+)

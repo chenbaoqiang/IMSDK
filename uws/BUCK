@@ -1,0 +1,49 @@
+import re
+
+uws_gen_aidls = []
+for aidlfile in glob(['src/main/aidl/com/feinno/sdk/dapi/IRCSWorkingService.aidl',
+                      'src/main/aidl/com/feinno/sdk/session/IGetAvSessionCallback.aidl',
+                    #  'src/main/aidl/com/android/**/*.aidl'
+                    ]):
+  name = 'uws__' + re.sub(r'^.*/([^/]+)\.aidl$', r'\1', aidlfile)
+  uws_gen_aidls.append(':' + name)
+  gen_aidl(
+    name = name,
+    aidl = aidlfile,
+    #import_path = 'src/main/aidl/com.',
+    import_path = 'uws/src/main/aidl',
+  )
+
+android_library(
+  name = 'aidls',
+  srcs = uws_gen_aidls,
+  deps = [
+    '//ucommon:src',
+    #':src_model'
+  ],
+)
+
+android_resource(
+  name = 'res',
+  res = 'src/main/res',
+  package = 'com.urcs.uws',
+  #assets = 'src/main/assets',
+)
+
+android_library(
+  name = 'src',
+  srcs = glob(["src/main/java/com/feinno/**/*.java"]),
+  visibility = ['PUBLIC'],
+  deps = [
+    ':aidls',
+    ':res',
+    '//libs:uws-jars',
+    '//ucommon:src',
+    '//usdk:usdk',
+  ],
+)
+
+project_config(
+  src_target = ':src',
+  src_roots = ['src/main/java', 'src/main/aidl'],
+)

@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/activity_group_evt.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/activity_group_evt.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/activity_group_member.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/activity_group_member.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/activity_group.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/activity_group.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/multi_call_item.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/multi_call_item.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/activity_user.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/activity_user.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/fragment_incall_background.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/fragment_incall_background.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/fragment_incall_card.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/fragment_incall_card.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_simple_dropdown_hint.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/activity_device.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/activity_device.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/activity_incall_screen.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/activity_incall_screen.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/list_item_message.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/list_item_message.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/activity_provision.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/activity_provision.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/activity_buddy_evt.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/activity_buddy_evt.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_search_view.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/activity_buddy.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/activity_buddy.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/list_item_buddy.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/list_item_buddy.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/list_item_buddy_evt.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/list_item_buddy_evt.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/list_item_group.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/list_item_group.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/list_item_group_member.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/list_item_group_member.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/activity_settings.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/activity_fetchfile.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/activity_fetchfile.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_activity_chooser_view_include.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/activity_main.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/fragment_incall_button.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/fragment_incall_button.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/list_item_group_evt.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/list_item_group_evt.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/multi_call_fragment.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/multi_call_fragment.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/activity_message.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/layout/activity_message.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/layout/abc_list_menu_item_icon.xml"
+    }
+]

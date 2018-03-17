@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tv_user_id"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tv_user_name"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tv_local_name"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tv_nickname"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tv_portrait_version"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tv_portrait_path"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tv_impresa"/>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tv_caps"/>
+
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_caps" android:text="查询状态/能力"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_memo" android:text="备注好友"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_delete" android:text="删除"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_portrait" android:text="下载头像"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_message" android:text="发送消息"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btn_profile" android:text="获取用户详情"/>
+</LinearLayout>

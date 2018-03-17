@@ -1,0 +1,23 @@
+android_library(
+  name = 'usdk',
+  srcs = glob(['src/**/*.java']),
+  deps = [
+    '//libs:gson',
+    '//libs:zip4j',
+    '//ucommon:src',
+    ':native_libs',
+  ],
+  visibility = [
+    '//...'
+  ],
+)
+
+prebuilt_native_library(
+  name = 'native_libs',
+  native_libs = 'src/main/jniLibs',
+)
+
+project_config(
+  src_target = ':usdk',
+  src_roots = ['src/main/java'],
+)

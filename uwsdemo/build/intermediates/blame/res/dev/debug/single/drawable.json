@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/ic_lockscreen_text_activated_layer.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/ic_lockscreen_text_activated_layer.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/switch_to_video_call.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/switch_to_video_call.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/end_call.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/end_call.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/btn_fake_compound_hold.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/btn_fake_compound_hold.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/switch_camera.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/switch_camera.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/ic_in_call_touch_handle.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/ic_in_call_touch_handle.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/btn_compound_dialpad.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/btn_compound_dialpad.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/ic_lockscreen_text.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/ic_lockscreen_text.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/ic_lockscreen_decline_activated_layer.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/ic_lockscreen_decline_activated_layer.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/turn_on_camera.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/turn_on_camera.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/ic_lockscreen_decline_normal_layer.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/ic_lockscreen_decline_normal_layer.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/btn_fake_compound_system_call.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/btn_fake_compound_system_call.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/list_selector_focused_and_checked.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/list_selector_focused_and_checked.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/ic_lockscreen_answer_normal_layer.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/ic_lockscreen_answer_normal_layer.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/ic_lockscreen_text_normal_layer.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/ic_lockscreen_text_normal_layer.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/ic_lockscreen_outerring.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/ic_lockscreen_outerring.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/answer_call.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/answer_call.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/ic_lockscreen_answer.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/ic_lockscreen_answer.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/btn_fake_compound_background.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/btn_fake_compound_background.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/btn_compound_audio.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/btn_compound_audio.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/list_selector_selected_and_pressed.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/list_selector_selected_and_pressed.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/switch_to_audio_call.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/switch_to_audio_call.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/turn_on_mute.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/turn_on_mute.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/ic_lockscreen_answer_activated_layer.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/ic_lockscreen_answer_activated_layer.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/clickable_dim_effect.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/clickable_dim_effect.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/btn_fake_compound_mute.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/btn_fake_compound_mute.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/btn_compound_background.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/btn_compound_background.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/ic_lockscreen_decline.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/ic_lockscreen_decline.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/answer_by_audio.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/answer_by_audio.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/turn_on_speaker.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/turn_on_speaker.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/switch_view.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/switch_view.xml"
+    },
+    {
+        "merged": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/res/merged/dev/debug/drawable/add_contact.xml",
+        "source": "/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/res/drawable/add_contact.xml"
+    }
+]

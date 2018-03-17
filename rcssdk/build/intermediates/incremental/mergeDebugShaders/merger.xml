@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/rcssdk/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/rcssdk/src/debug/shaders"/></dataSet></merger>

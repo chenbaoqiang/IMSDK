@@ -1,0 +1,539 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:2:1-288:12
+	package
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:2:11-41
+		INJECTED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml
+		INJECTED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:3:11-69
+uses-sdk
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:6:5-8:40
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:15:5-42
+MERGED from [android:uws:unspecified] /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/android/uws/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [android:usdk:unspecified] /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/android/usdk/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [android:ucommon:unspecified] /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/android/ucommon/unspecified/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:8:9-38
+		INJECTED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml
+		INJECTED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:7:9-35
+		INJECTED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml
+		INJECTED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:13:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:14:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:15:5-78
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:15:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:17:5-67
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:17:22-65
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:19:22-76
+uses-permission#android.permission.MOUNT_MOUNT_FILESYSTEMS
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:20:22-79
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:21:5-83
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:21:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:22:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:23:5-72
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:23:22-70
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:25:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:27:22-72
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:31:5-65
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:31:22-63
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:32:5-67
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:32:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:33:5-73
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:33:22-71
+uses-permission#android.permission.SHUTDOWN
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:38:5-66
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:38:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:39:5-70
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:39:22-68
+uses-permission#android.permission.PERFORM_CDMA_PROVISIONING
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:40:5-83
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:40:22-81
+uses-permission#android.permission.USE_SIP
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:41:5-65
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:41:22-63
+uses-permission#android.permission.REBOOT
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:42:5-64
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:42:22-62
+uses-permission#android.permission.UPDATE_LOCK
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:43:5-69
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:43:22-67
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:44:5-84
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:44:22-82
+uses-permission#com.android.smspush.WAPPUSH_MANAGER_BIND
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:45:5-79
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:45:22-77
+uses-permission#android.permission.MANAGE_USERS
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:46:5-70
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:46:22-68
+uses-permission#android.permission.UPDATE_APP_OPS_STATS
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:47:5-78
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:47:22-76
+uses-permission#android.permission.CONNECTIVITY_INTERNAL
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:48:5-79
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:48:22-77
+uses-permission#android.permission.CAMERA
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:49:5-64
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:49:22-62
+application
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:51:5-286:19
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:16:5-19
+MERGED from [android:uws:unspecified] /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/android/uws/unspecified/AndroidManifest.xml:11:5-12:19
+MERGED from [android:usdk:unspecified] /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/android/usdk/unspecified/AndroidManifest.xml:11:5-12:19
+MERGED from [android:ucommon:unspecified] /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/android/ucommon/unspecified/AndroidManifest.xml:11:5-12:19
+	android:label
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:54:9-32
+	android:hardwareAccelerated
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:53:9-43
+	android:debuggable
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:55:9-34
+	android:allowBackup
+		ADDED from [android:uws:unspecified] /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/build/intermediates/exploded-aar/android/uws/unspecified/AndroidManifest.xml:11:18-44
+	android:theme
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:56:9-70
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:52:9-50
+activity#com.interrcs.uwsdemo.activity.MainActivity
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:59:9-64:20
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:59:19-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:60:13-63:29
+action#android.intent.action.MAIN
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:61:17-68
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:61:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:62:17-76
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:62:27-74
+activity#com.interrcs.uwsdemo.activity.ProvisionActivity
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:66:9-73
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:66:19-61
+activity#com.interrcs.uwsdemo.activity.BuddyEventActivity
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:67:9-74
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:67:19-62
+activity#com.interrcs.uwsdemo.activity.BuddyActivity
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:68:9-69
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:68:19-57
+activity#com.interrcs.uwsdemo.activity.DeviceActivity
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:69:9-70
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:69:19-58
+activity#com.interrcs.uwsdemo.activity.UserActivity
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:70:9-68
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:70:19-56
+activity#com.interrcs.uwsdemo.activity.MessageActivity
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:71:9-71
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:71:19-59
+activity#com.interrcs.uwsdemo.activity.SettingActivity
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:72:9-71
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:72:19-59
+activity#com.interrcs.uwsdemo.activity.FetchFileActivity
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:73:9-73
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:73:19-61
+activity#com.interrcs.uwsdemo.activity.GroupEventActivity
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:74:9-74
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:74:19-62
+activity#com.interrcs.uwsdemo.activity.GroupActivity
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:75:9-69
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:75:19-57
+activity#com.interrcs.uwsdemo.activity.GroupMemberActivity
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:76:9-75
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:76:19-63
+service#com.feinno.sdk.dapi.RCSWorkingService
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:81:9-88:19
+	android:process
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:84:13-38
+	android:exported
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:83:13-37
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:82:13-65
+intent-filter#com.feinno.uws.Action.RCSWorkingService
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:85:13-87:29
+action#com.feinno.uws.Action.RCSWorkingService
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:86:17-81
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:86:25-79
+service#com.feinno.sdk.dapi.RemoveNotificationService
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:91:9-93:39
+	android:exported
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:93:13-37
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:92:13-73
+service#com.interrcs.uwsdemo.UWSReceiverService
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:96:9-98:39
+	android:exported
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:98:13-37
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:97:13-67
+service#com.interrcs.mcall.service.RcsPhoneService$PhoneDaemonService
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:101:9-102:45
+	android:exported
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:102:18-42
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:101:18-94
+receiver#com.feinno.uws.BootBroadcastReceiver
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:104:9-109:20
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:104:19-70
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.HOME
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:105:13-108:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:106:17-78
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:106:25-76
+category#android.intent.category.HOME
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:107:17-72
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:107:27-70
+receiver#com.feinno.sdk.dapi.RCSWorkingService$NetworkReceiver
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:112:9-117:20
+	android:process
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:112:88-113
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:112:19-87
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:114:13-116:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:115:17-78
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:115:25-76
+receiver#com.feinno.sdk.dapi.RCSWorkingServiceBootReceiver
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:121:9-130:20
+	android:process
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:124:13-38
+	android:exported
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:123:13-37
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:122:13-77
+intent-filter#android.intent.action.BOOT_COMPLETED+android.net.conn.CONNECTIVITY_CHANGE+com.interrcs.sdk.broadcast.BOOT_RCSWORKINGSERVICE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:125:13-129:29
+	android:priority
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:125:28-57
+action#com.interrcs.sdk.broadcast.BOOT_RCSWORKINGSERVICE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:128:17-91
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:128:25-89
+receiver#com.interrcs.uwsdemo.UWSReceiver
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:133:9-247:20
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:133:19-66
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:134:13-136:29
+intent-filter#com.interrcs.sdk.yourapp.broadcast.ACTION_SERVICE_STATE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:137:13-139:29
+action#com.interrcs.sdk.yourapp.broadcast.ACTION_SERVICE_STATE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:138:17-97
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:138:25-95
+intent-filter#com.interrcs.sdk.yourapp.broadcast.ACTION_SDK_STATE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:140:13-142:29
+action#com.interrcs.sdk.yourapp.broadcast.ACTION_SDK_STATE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:141:17-93
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:141:25-91
+intent-filter#com.interrcs.sdk.yourapp.broadcast.ACTION_USER_STATE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:143:13-145:29
+action#com.interrcs.sdk.yourapp.broadcast.ACTION_USER_STATE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:144:17-94
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:144:25-92
+intent-filter#com.interrcs.sdk.yourapp.broadcast.ACTION_CONNECTION_STATE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:146:13-148:29
+action#com.interrcs.sdk.yourapp.broadcast.ACTION_CONNECTION_STATE
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:147:17-100
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:147:25-98
+intent-filter#com.interrcs.sdk.yourapp.broadcast.getsmscode_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:151:13-153:29
+action#com.interrcs.sdk.yourapp.broadcast.getsmscode_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:152:17-94
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:152:25-92
+intent-filter#com.interrcs.sdk.yourapp.broadcast.provision_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:155:13-157:29
+action#com.interrcs.sdk.yourapp.broadcast.provision_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:156:17-93
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:156:25-91
+intent-filter#com.interrcs.sdk.yourapp.broadcast.login_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:159:13-161:29
+action#com.interrcs.sdk.yourapp.broadcast.login_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:160:17-89
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:160:25-87
+intent-filter#com.interrcs.sdk.yourapp.broadcast.message_text_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:163:13-165:29
+action#com.interrcs.sdk.yourapp.broadcast.message_text_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:164:17-97
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:164:25-95
+intent-filter#com.interrcs.sdk.yourapp.broadcast.message_file_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:166:13-168:29
+action#com.interrcs.sdk.yourapp.broadcast.message_file_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:167:17-97
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:167:25-95
+intent-filter#com.interrcs.sdk.yourapp.broadcast.message_file_progress_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:169:13-171:29
+action#com.interrcs.sdk.yourapp.broadcast.message_file_progress_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:170:17-106
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:170:25-104
+intent-filter#com.interrcs.sdk.yourapp.broadcast.message_report_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:172:13-174:29
+action#com.interrcs.sdk.yourapp.broadcast.message_report_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:173:17-99
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:173:25-97
+intent-filter#com.interrcs.sdk.yourapp.broadcast.message_fetch_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:175:13-177:29
+action#com.interrcs.sdk.yourapp.broadcast.message_fetch_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:176:17-97
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:176:25-95
+intent-filter#com.interrcs.sdk.yourapp.broadcast.message_send_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:178:13-180:29
+action#com.interrcs.sdk.yourapp.broadcast.message_send_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:179:17-96
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:179:25-94
+intent-filter#com.interrcs.sdk.yourapp.broadcast.message_custom_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:181:13-183:29
+action#com.interrcs.sdk.yourapp.broadcast.message_custom_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:182:17-99
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:182:25-97
+intent-filter#com.interrcs.sdk.yourapp.broadcast.caps
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:186:13-188:29
+action#com.interrcs.sdk.yourapp.broadcast.caps
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:187:17-81
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:187:25-79
+intent-filter#com.feinno.sdk.v3.yourapp.broadcast.buddy_event_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:190:13-192:29
+action#com.feinno.sdk.v3.yourapp.broadcast.buddy_event_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:191:17-97
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:191:25-95
+intent-filter#com.feinno.sdk.v3.yourapp.broadcast.buddy_list_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:193:13-195:29
+action#com.feinno.sdk.v3.yourapp.broadcast.buddy_list_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:194:17-96
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:194:25-94
+intent-filter#com.feinno.sdk.v3.yourapp.broadcast.buddy_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:196:13-198:29
+action#com.feinno.sdk.v3.yourapp.broadcast.buddy_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:197:17-90
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:197:25-88
+intent-filter#com.feinno.sdk.v3.yourapp.broadcast.userinfo_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:199:13-201:29
+action#com.feinno.sdk.v3.yourapp.broadcast.userinfo_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:200:17-93
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:200:25-91
+intent-filter#com.feinno.sdk.v3.yourapp.broadcast.userprofile_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:202:13-204:29
+action#com.feinno.sdk.v3.yourapp.broadcast.userprofile_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:203:17-96
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:203:25-94
+intent-filter#com.feinno.sdk.v3.yourapp.broadcast.userportrait_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:205:13-207:29
+action#com.feinno.sdk.v3.yourapp.broadcast.userportrait_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:206:17-97
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:206:25-95
+intent-filter#com.interrcs.sdk.yourapp.broadcast.group_list_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:209:13-211:29
+action#com.interrcs.sdk.yourapp.broadcast.group_list_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:210:17-95
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:210:25-93
+intent-filter#com.interrcs.sdk.yourapp.broadcast.group_event_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:212:13-214:29
+action#com.interrcs.sdk.yourapp.broadcast.group_event_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:213:17-96
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:213:25-94
+intent-filter#com.interrcs.sdk.yourapp.broadcast.group_notify_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:215:13-217:29
+action#com.interrcs.sdk.yourapp.broadcast.group_notify_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:216:17-97
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:216:25-95
+intent-filter#com.interrcs.sdk.yourapp.broadcast.group_info_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:218:13-220:29
+action#com.interrcs.sdk.yourapp.broadcast.group_info_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:219:17-95
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:219:25-93
+intent-filter#com.interrcs.sdk.yourapp.broadcast.av_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:222:13-224:29
+action#com.interrcs.sdk.yourapp.broadcast.av_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:223:17-88
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:223:25-85
+intent-filter#com.interrcs.sdk.yourapp.broadcast.av_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:225:13-227:29
+action#com.interrcs.sdk.yourapp.broadcast.av_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:226:17-87
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:226:25-84
+intent-filter#com.interrcs.sdk.yourapp.broadcast.endpointlist_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:229:13-231:29
+action#com.interrcs.sdk.yourapp.broadcast.endpointlist_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:230:17-97
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:230:25-94
+intent-filter#com.interrcs.sdk.yourapp.broadcast.endpoint_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:232:13-234:29
+action#com.interrcs.sdk.yourapp.broadcast.endpoint_result
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:233:17-93
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:233:25-90
+intent-filter#com.feinno.sdk.yourapp.broadcast.endpointchanged_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:235:13-237:29
+action#com.feinno.sdk.yourapp.broadcast.endpointchanged_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:236:17-99
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:236:25-96
+intent-filter#com.feinno.sdk.yourapp.broadcast.logout_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:238:13-240:29
+action#com.feinno.sdk.yourapp.broadcast.logout_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:239:17-90
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:239:25-87
+intent-filter#com.feinno.sdk.yourapp.broadcast.message_batch_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:241:13-243:29
+action#com.feinno.sdk.yourapp.broadcast.message_batch_session
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:242:17-97
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:242:25-94
+intent-filter#com.feinno.sdk.v3.yourapp.broadcast.login_state
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:244:13-246:29
+action#com.feinno.sdk.v3.yourapp.broadcast.login_state
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:245:17-90
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:245:25-87
+provider#com.interrcs.uwsdemo.data.BuddyEvtContentProvider
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:251:9-254:38
+	android:authorities
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:253:13-71
+	android:exported
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:254:13-36
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:252:13-77
+provider#com.interrcs.uwsdemo.data.BuddyContentProvider
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:257:9-260:38
+	android:authorities
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:259:13-67
+	android:exported
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:260:13-36
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:258:13-74
+provider#com.interrcs.uwsdemo.data.MessageContentProvider
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:263:9-266:38
+	android:authorities
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:265:13-69
+	android:exported
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:266:13-36
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:264:13-76
+provider#com.interrcs.uwsdemo.data.GroupEvtContentProvider
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:269:9-272:42
+	android:authorities
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:271:17-75
+	android:exported
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:272:17-40
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:270:17-81
+provider#com.interrcs.uwsdemo.data.GroupContentProvider
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:275:9-278:42
+	android:authorities
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:277:17-71
+	android:exported
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:278:17-40
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:276:17-78
+provider#com.interrcs.uwsdemo.data.GroupMemberContentProvider
+ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:281:9-284:42
+	android:authorities
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:283:17-78
+	android:exported
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:284:17-40
+	android:name
+		ADDED from /Users/chenbaoqiang/StudioProjects/RCSSDKv3/20180309/rcssdkv3/android/uwsdemo/src/main/AndroidManifest.xml:282:17-84
